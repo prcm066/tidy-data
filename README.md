@@ -1,6 +1,3 @@
----
-output: html_document
----
 # READ ME
 
 This readme file has two sections, the first describes how the script works and the second one describes the variables.
