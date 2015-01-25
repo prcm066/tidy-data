@@ -42,5 +42,5 @@ tabla<-subjects %>%
 tabla<- tabla %>%
     gather(variable,value,-(1:4))
 # Create a narrow tidy summary. 
-tidy_summary<-summarize(group_by(tabla,Subject,Activity,variable),average=mean(valor))
+tidy_summary<-summarize(group_by(tabla,Subject,Activity,variable),average=mean(value))
 write.table(tidy_summary, file="tidy_summary.txt",row.names = FALSE)
