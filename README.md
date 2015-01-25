@@ -40,10 +40,18 @@ of "variable", and its value is in "value", this is a narrow tidy data.
 
 * Subject .- Subject Number, ranges from 1 to 30
 * Activity.- Name of the measured activity, 6 possible values:
-  LAYING 
-  WALKING
-  WALKING_DOWNSTAIRS
-  WALKING_UPSTAIRS
+
+
+Activity_Code|Activity
+| ----------- |:-----------:|
+1|WALKING
+2|WALKING_UPSTAIRS
+3|WALKING_DOWNSTAIRS
+4|SITTING
+5|STANDING
+6|LAYING
+
+  
 * variable.- This variable describes the type of measurement with a suffix that indicates the type of  statistic (".mean", ".std")  For a full description of the measurements we refer to features_info.txt in the "UCI HAR Dataset" directory.
 
 
