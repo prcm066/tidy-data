@@ -36,10 +36,10 @@ Activity_Code|Activity
 6|LAYING
 
   
-* variable.- This variable describes the type of measurement with a suffix that indicates the type of  statistic (".mean", ".std")  For a full description of the measurements we refer to features_info.txt in the "UCI HAR Dataset" directory.
+* measurement.- This variable describes the type of measurement with a suffix that indicates the type of  statistic (".mean", ".std")  For a full description of the measurements we refer to features_info.txt in the "UCI HAR Dataset" directory.
 
 
-* value.- This is the mean grouped by Subject and Activity of each of the normalized statistics of the different measurements. 
+* average.- This is the mean grouped by Subject and Activity of each of the normalized statistics of the different measurements. 
 
 We renamed the variables to make them R compliant, at the end of this document there is a map of the tidy_summary name and the original name for each measurement.
 
