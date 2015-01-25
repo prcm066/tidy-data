@@ -1,3 +1,24 @@
+## Data Processing
+
+We list the steps we took to process the data:
+
+1.- Bind rows "test_subjects.txt" and "train_subjects.txt" into subjects.
+
+2.- Bind rows "y_test.txt" and "y_train" into activities.
+
+3.- Bind rows "x_test.txt" and "x_train" into  vars.
+
+4.- Join the labels ("activity_labels.txt")to activities.
+
+5.- From "features.txt" we keep just the ones ending with "mean()" or "std()" as requested, but we remove brackets and replace dashes "-" with dots "." following the Google R style guide.
+
+6.- We merge subjects, activities, and vars by number of row.
+
+7.- We melt the table, so that the type of measurement from x_test is the value
+of "variable", and its value is in "value", this is a narrow tidy data.
+
+8.- Finaly we take mean of value grouping by Subject/Activity/Variable. This last dataset called tidy_summary is the one we export and upload.
+
 
 ## Variables
 

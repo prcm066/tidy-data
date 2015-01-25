@@ -16,11 +16,11 @@ It needs following libraries:
 
 The steps it follows are:
 
-1.- Bind by row "test_subjects.txt" and "train_subjects.txt" into subjects.
+1.- Bind the rows "test_subjects.txt" and "train_subjects.txt" into subjects.
 
-2.- Bind by row "y_test.txt" and "y_train" into activities.
+2.- Bind the rows "y_test.txt" and "y_train" into activities.
 
-3.- Bind by row "x_test.txt" and "x_train" into  vars.
+3.- Bind the rows "x_test.txt" and "x_train" into  vars.
 
 4.- pastes the labels ("activity_labels.txt")to activities.
 
