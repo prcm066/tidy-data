@@ -4,7 +4,7 @@
 library(data.table)
 library(dplyr)
 library(tidyr)
-# build table from Test Folder
+
 # Read subjects, activities and X (vars) from test and train folder and bind them
 subjects<-rbind(fread("./test/subject_test.txt",header=FALSE),fread("./train/subject_train.txt",header=FALSE))
 activities<-rbind(fread("./test/y_test.txt",header=FALSE),fread("./train/y_train.txt",header=FALSE))
